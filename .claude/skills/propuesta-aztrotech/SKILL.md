@@ -23,7 +23,10 @@ Antes de abrir la plantilla, junta los hechos:
 - Frases cortas, una idea por renglón, tuteo, lenguaje llano. Sin jerga ni anglicismos (nada de “deliverable”, “kick-off”, “stakeholder”, “bloqueante”).
 - **Prohibido:** secciones de “costo de esperar”, “cómo trabajamos” / pilares, filosofía, bonos inventados, garantías que César no ofreció, testimonios, historia de AztroTech.
 - Precios siempre **MXN + IVA**. Pago en dos partes = ~10 % más caro que el pago único.
-- La fase 2 (o lo que va “después”) va en **una sola nota**, con precio “desde”, no como sección.
+- La fase 2 (o lo que va “después”) va en **una sola nota**, con precio “desde”, no como sección. Si César pide enfocarse en lo que el cliente quiere, quítala.
+- **Agentes, no chatbots:** cuando lo que se vende es un agente tipo Hermes (vive en WhatsApp o Telegram, tiene memoria, ejecuta órdenes), nunca lo llames chatbot ni lo compares con chatbots.
+- **Precio especial** (familia, cliente fundador, referido): muestra el precio normal tachado con `<span class="was">$32,000</span>` junto al precio especial, y escribe en una línea qué da el cliente a cambio (testimonio, presentaciones con contactos, mensualidad fija 12 meses). Así nadie toma el precio especial como tarifa normal.
+- **Gastos de operación:** di siempre quién paga qué. La mensualidad de AztroTech cubre servidor, IA, mantenimiento y soporte; lo que cobra un tercero directo al cliente (por ejemplo, los mensajes de WhatsApp de Meta) va en “No incluye” y, si aplica, en la tarjeta de la opción.
 
 ## 3. Estructura fija
 
@@ -32,7 +35,7 @@ Antes de abrir la plantilla, junta los hechos:
 2. **4 KPIs:** Qué resolvemos · Operando en · Inversión · Mensualidad (el último en dorado, clase `gold`). Valores de 1–3 palabras.
 3. **01 · Lo que necesitas:** 3 renglones, en las palabras del cliente.
 4. **02 · Así funciona:** tabla de 4 a 6 filas `TÚ LE DICES / EL SISTEMA HACE` (o `NECESITAS / LO QUE HACEMOS`), cada una con chip `SÍ`, `SÍ, CON CONDICIÓN` o `NO` (fila `class="no"`).
-5. **Nota de fase 2** (opcional, una sola).
+5. **Opciones** (si el cliente debe elegir, por ejemplo WhatsApp o Telegram): bloque `.opts` con dos `.card.opt` (la recomendada con clase `rec` y chip RECOMENDADO), 2 viñetas cada una y un renglón `.cost` con el gasto extra. Si no hay opciones, puede ir la **nota de fase 2** (una sola).
 
 **Hoja 2 · Alcance, inversión y arranque**
 6. **03 · Qué incluye:** dos tarjetas, Incluye (≤6) y No incluye (≤4).
